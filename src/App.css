@@ -1,0 +1,19 @@
+main{
+  margin : 0;
+  width : 100vw;
+  height: 100vh;
+  background-color: aqua;
+}
+
+#quote-box{
+  width : 500px;
+  position: relative ;
+  background-color: white;
+  border-radius: 20px !important ;
+}
+
+  #new-quote {
+    box-shadow: 4px 4px 2px black !important;
+    border-radius: 10px !important;
+}
+  
