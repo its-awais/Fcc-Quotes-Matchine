@@ -9,7 +9,8 @@ const Quotes = () => {
     useEffect(() => {
     const fetchQuotes = async () => {
         try {
-       const response = await fetch("/api/quotes");
+       const response = await fetch(`${import.meta.env.VITE_API_URL}/api/quotes`);
+
        const data = await response.json();
        console.log(data)
       setQuotes(data)
